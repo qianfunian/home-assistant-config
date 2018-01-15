@@ -1,0 +1,5 @@
+- platform: cups
+  name: Printer Queue
+  printers:
+    - Canon_LBP6030w_6018w
+  scan_interval: 1

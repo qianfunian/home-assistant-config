@@ -1,0 +1,3 @@
+script.set_vlc_volume:
+  hidden: true
+  homebridge_hidden: true
