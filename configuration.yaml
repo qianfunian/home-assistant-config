@@ -164,3 +164,19 @@ scene: !include_dir_merge_list scene
 switch: !include_dir_merge_list switch
 script: !include_dir_merge_named script
 shell_command: !include_dir_merge_named shell_command
+
+panel_iframe:
+  router:
+    title: 'HiWiFi'
+    icon: mdi:router-wireless
+    url: 'http://192.168.199.1'
+
+  aria2:
+    title: 'Aria2'
+    icon: mdi:cloud-download
+    url: 'http://down.lukin.cn/'
+
+  printer:
+    title: 'Printer'
+    icon: mdi:printer
+    url: 'http://192.168.199.8:631'
