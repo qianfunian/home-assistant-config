@@ -19,5 +19,8 @@ automation.notify_weather_2:
 automation.auto_open_printer:
   friendly_name: 自动打开打印机
 
+automation.auto_close_printer:
+  friendly_name: 空闲自动关闭打印机
+
 automation.lukin_comeback:
   friendly_name: Lukin回家了
