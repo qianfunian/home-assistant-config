@@ -45,7 +45,7 @@
 - alias: 'Notify Luvis for to school'
   trigger:
     - platform: time
-      at: '07:45:00'
+      at: '07:31:00'
 
   condition:
     # 周一到周五
