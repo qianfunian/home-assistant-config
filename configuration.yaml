@@ -169,14 +169,14 @@ panel_iframe:
   router:
     title: 'HiWiFi'
     icon: mdi:router-wireless
-    url: 'http://192.168.199.1'
+    url: 'https://router.lukin.cn/'
 
   aria2:
     title: 'Aria2'
     icon: mdi:cloud-download
-    url: 'http://down.lukin.cn/'
+    url: 'https://down.lukin.cn/'
 
   printer:
     title: 'Printer'
     icon: mdi:printer
-    url: 'http://192.168.199.8:631'
+    url: 'https://printer.lukin.cn/'
