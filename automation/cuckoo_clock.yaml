@@ -3,17 +3,17 @@
   trigger:
     - platform: time
       minutes: 00
-      seconds: 20
+      seconds: 10
     - platform: time
       minutes: 30
-      seconds: 00
+      seconds: 10
 
   condition:
     condition: or
     conditions:
       # 周一到周五
       - condition: time
-        after: '06:30:00'
+        after: '07:00:00'
         before: '21:30:00'
         weekday:
           - mon
@@ -23,7 +23,7 @@
           - fri
       # 周六、周日
       - condition: time
-        after: '08:30:00'
+        after: '08:00:00'
         before: '22:00:00'
         weekday:
           - sat
